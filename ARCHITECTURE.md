@@ -1,4 +1,4 @@
-# Architectuire Guide
+# Architecture Guide
 
 This document describes the high-level architecture of the Google Cloud Rust
 Client libraries. Its main audience are developers and contributors making
