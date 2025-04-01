@@ -34,7 +34,7 @@ gaxi       = { version = "0.1", path = "../../../../../../../src/gax-internal", 
 lazy_static = { version = "1" }
 longrunning = { version = "0.22", path = "../../../../../../../src/generated/longrunning", package = "google-cloud-longrunning" }
 lro        = { version = "0.1", path = "../../../../../../../src/lro", package = "google-cloud-lro" }
-reqwest    = { version = "0.12", features = ["json"] }
+reqwest    = { version = "0.12", features = ["json", "rustls-tls"] }
 serde      = { version = "1", features = ["serde_derive"] }
 serde_json = { version = "1" }
 serde_with = { version = "3", default-features = false, features = ["base64", "macros", "std"] }

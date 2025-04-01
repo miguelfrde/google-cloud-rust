@@ -39,7 +39,7 @@ longrunning = { version = "0.22", path = "../../../../../src/generated/longrunni
 lro        = { version = "0.1", path = "../../../../../src/lro", package = "google-cloud-lro" }
 orgpolicy_v1 = { version = "0.2", path = "../../../../../src/generated/cloud/orgpolicy/v1", package = "google-cloud-orgpolicy-v1" }
 osconfig_v1 = { version = "0.2", path = "../../../../../src/generated/cloud/osconfig/v1", package = "google-cloud-osconfig-v1" }
-reqwest    = { version = "0.12", features = ["json"] }
+reqwest    = { version = "0.12", features = ["json", "rustls-tls"] }
 rpc        = { version = "0.2", path = "../../../../../src/generated/rpc/types", package = "google-cloud-rpc" }
 serde      = { version = "1", features = ["serde_derive"] }
 serde_json = { version = "1" }

@@ -44,7 +44,7 @@ unstable-stream = ["dep:futures", "dep:pin-project"]
 
 [dev-dependencies]
 axum       = "0.8"
-reqwest    = "0.12"
+reqwest    = { version = "0.12", features = ["rustls-tls"] }
 serde_json = "1"
 tokio      = { version = "1", features = ["test-util"] }
 # Local dependencies
